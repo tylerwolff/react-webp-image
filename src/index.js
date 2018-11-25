@@ -8,7 +8,7 @@ export default class extends Component {
       <picture>
         <source srcSet={webp} type="image/webp" />
         <source srcSet={src} />
-        <img src={src} {...this.props} />
+        <img {...this.props} />
       </picture>
     );
   }

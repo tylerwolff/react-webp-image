@@ -12,7 +12,11 @@ class Demo extends Component {
     return (
       <div>
         <h1>React Webp Image Demo</h1>
-        <Img src={jpgSource} webp={webpSource} />
+        <Img
+          src={jpgSource}
+          webp={webpSource}
+          alt="I will render a webp image"
+        />
       </div>
     );
   }
