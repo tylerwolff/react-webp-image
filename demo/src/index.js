@@ -3,12 +3,16 @@ import { render } from "react-dom";
 
 import Img from "../../src";
 
+// Image examples
+import jpgSource from "../images/1.jpg";
+import webpSource from "../images/1.webp";
+
 class Demo extends Component {
   render() {
     return (
       <div>
         <h1>React Webp Image Demo</h1>
-        <Img />
+        <Img src={jpgSource} webp={webpSource} />
       </div>
     );
   }
