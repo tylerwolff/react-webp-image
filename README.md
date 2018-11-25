@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-A simple react component for rendering webp images with a fallback for older browsers. It uses the `<picture>` tag to support older browsers without the need for a polyfill.
+A simple react component for rendering **webp** images with a fallback for older browsers. It uses the `<picture>` tag to support older browsers without the need for a polyfill.
 
 ## Installation
 
