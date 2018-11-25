@@ -4,7 +4,23 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-A simple utility for rendering webp images with a fallback for older browsers. It uses the `<picture>` tag to support older browsers without the need for a polyfill.
+A simple react component for rendering webp images with a fallback for older browsers. It uses the `<picture>` tag to support older browsers without the need for a polyfill.
+
+## Installation
+
+```
+yarn add react-webp-image
+```
+
+## Usage
+
+```jsx
+import Img from "react-webp-image";
+
+<Img src={imgPath} webp={webpPath} alt="I'm a webp image" />;
+```
+
+All additional props will be passed down to the rendered img tag
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
