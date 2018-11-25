@@ -6,8 +6,8 @@ export default class extends Component {
 
     return (
       <picture>
-        <source srcset={webp} type="image/webp" />
-        <source srcset={src} />
+        <source srcSet={webp} type="image/webp" />
+        <source srcSet={src} />
         <img src={src} {...this.props} />
       </picture>
     );
