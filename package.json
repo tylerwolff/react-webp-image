@@ -1,8 +1,16 @@
 {
   "name": "react-webp-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "A simple react component for rendering webp images with a fallback for older browsers",
+  "keywords": [
+    "react-component",
+    "react",
+    "webp",
+    "picture",
+    "component",
+    "image"
+  ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": ["css", "es", "lib", "umd"],
@@ -24,9 +32,9 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   },
-  "author": "",
+  "author":
+    "Tyler Wolff <tylerwolff@gmail.com> (https://github.com/tylerwolff)",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
-  "keywords": ["react-component"]
+  "repository": "github:tylerwolff/react-webp-image"
 }

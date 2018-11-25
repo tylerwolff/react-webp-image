@@ -9,6 +9,12 @@ A simple react component for rendering webp images with a fallback for older bro
 ## Installation
 
 ```
+npm install react-webp-image
+```
+
+or
+
+```
 yarn add react-webp-image
 ```
 
