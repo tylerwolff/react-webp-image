@@ -1,15 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class extends Component {
-  render() {
-    const { src, webp } = this.props;
-
-    return (
-      <picture>
-        <source srcSet={webp} type="image/webp" />
-        <source srcSet={src} />
-        <img {...this.props} />
-      </picture>
-    );
-  }
-}
+export default props => (
+  <picture>
+    <source srcSet={props.webp} type="image/webp" />
+    <source srcSet={props.src} />
+    <img {...props} />
+  </picture>
+);
