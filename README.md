@@ -28,9 +28,9 @@ import Img from "react-webp-image";
 
 All additional props will be passed down to the rendered img tag
 
-[build-badge]: https://img.shields.io/travis/tylerwolff/react-webp-image/master.png?style=flat-square
+[build-badge]: https://img.shields.io/travis/tylerwolff/react-webp-image/master.svg
 [build]: https://travis-ci.org/tylerwolff/react-webp-image
-[npm-badge]: https://img.shields.io/npm/v/react-webp-image.png?style=flat-square
+[npm-badge]: https://img.shields.io/npm/v/react-webp-image.svg
 [npm]: https://www.npmjs.org/package/react-webp-image
-[coveralls-badge]: https://img.shields.io/coveralls/tylerwolff/react-webp-image/master.png?style=flat-square
+[coveralls-badge]: https://img.shields.io/coveralls/tylerwolff/react-webp-image/master.svg
 [coveralls]: https://coveralls.io/github/tylerwolff/react-webp-image
