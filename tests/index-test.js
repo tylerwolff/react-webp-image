@@ -24,7 +24,7 @@ describe("React webp image", () => {
   it("renders a <source> with webp path when provided", () => {
     render(<Img src="test.jpg" webp="test.webp" />, node, () => {
       expect(node.innerHTML).toContain(
-        '<picture><source srcset="test.webp" type="image/webp"><source srcset="test.jpg"><img src="test.jpg" webp="test.webp"></picture>'
+        '<picture><source srcset="test.webp" type="image/webp"><source srcset="test.jpg"><img src="test.jpg"></picture>'
       );
     });
   });
@@ -35,7 +35,7 @@ describe("React webp image", () => {
       node,
       () => {
         expect(node.innerHTML).toContain(
-          '<picture><source srcset="test.webp" type="image/webp"><source srcset="test.jpg"><img src="test.jpg" webp="test.webp" alt="this is a test"></picture>'
+          '<picture><source srcset="test.webp" type="image/webp"><source srcset="test.jpg"><img src="test.jpg" alt="this is a test"></picture>'
         );
       }
     );

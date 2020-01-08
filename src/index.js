@@ -1,9 +1,9 @@
 import React from "react";
 
-export default props => (
+export default ({ webp, src, ...rest }) => (
   <picture>
-    <source srcSet={props.webp} type="image/webp" />
-    <source srcSet={props.src} />
-    <img {...props} />
+    <source srcSet={webp} type="image/webp" />
+    <source srcSet={src} />
+    <img src={src} {...rest} />
   </picture>
 );
