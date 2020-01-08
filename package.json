@@ -1,6 +1,6 @@
 {
   "name": "react-webp-image",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple react component for rendering webp images with a fallback for older browsers",
   "keywords": [
     "react-component",
