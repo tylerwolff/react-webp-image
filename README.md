@@ -1,7 +1,8 @@
 # React webp image
 
-[![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
+![](https://img.shields.io/bundlephobia/minzip/react-webp-image?label=gzip%20size)
+[![Travis][build-badge]][build]
 [![Coveralls][coveralls-badge]][coveralls]
 
 A simple react component for rendering **webp** images with an image fallback for older browsers. It uses the `<picture>` tag to support older browsers without the need for feature detection or a polyfill.
